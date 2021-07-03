@@ -1,0 +1,8 @@
+app:
+  id: test-demo
+
+apollo:
+  bootstrap:
+    enabled: true
+    # will inject 'application' and 'TEST1.apollo' namespaces in bootstrap phase
+    namespaces: application
